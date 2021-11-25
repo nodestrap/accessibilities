@@ -1,9 +1,9 @@
 {
   "name": "@nodestrap/accessibilities",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "An accessibility management system for web components.",
   "type": "module",
-  "main": "dist/accessibilities.jsx",
+  "main": "dist/accessibilities.js",
   "types": "dist/accessibilities.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/nodestrap/accessibilities#readme",
   "dependencies": {
-    "@types/react": "^17.0.35",
+    "@types/react": "^17.0.37",
     "react": "^17.0.2"
   }
 }

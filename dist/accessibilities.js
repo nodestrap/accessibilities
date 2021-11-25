@@ -84,12 +84,10 @@ export const usePropActive = (props, defaultActive = _defaultActive) => {
             (props.active ?? defaultActive));
 };
 export function AccessibilityProvider(props) {
-    return (<Context.Provider value={{
+    return (React.createElement(Context.Provider, { value: {
             enabled: props.enabled ?? _defaultEnabled,
             readOnly: props.readOnly ?? _defaultReadOnly,
             active: props.active ?? _defaultActive,
-        }}>
-            {props.children}
-        </Context.Provider>);
+        } }, props.children));
 }
 export { AccessibilityProvider as default };
