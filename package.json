@@ -1,6 +1,6 @@
 {
   "name": "@nodestrap/accessibilities",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "An accessibility management system for web components.",
   "type": "module",
   "main": "dist/accessibilities.js",
